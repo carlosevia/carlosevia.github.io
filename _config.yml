@@ -1,0 +1,7 @@
+name: DITA Open Toolkit
+safe: true
+lsi: false
+pygments: true
+baseurl: ""
+
+version: "1.8"
