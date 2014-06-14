@@ -1,4 +1,5 @@
 name: HDITA demo from 2014-06-14
+markdown: kramdown
 safe: true
 lsi: false
 pygments: true
