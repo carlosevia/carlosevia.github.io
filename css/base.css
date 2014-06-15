@@ -3,3 +3,6 @@ video {
   height: auto   !important;
 }
 
+[data-hd-class="task/steps-informal"] {
+  background-color: yellow;
+}
