@@ -1,11 +1,11 @@
 - topic: Summertime
-  url: p1.html
+  filename: p1.html
   publish: yes
 
 - topic: How to
-  url: p2.html
+  filename: p2.html
   publish: yes
 
 - topic: How to (md)
-  url: p3.html
+  filename: p3.html
   publish: yes
