@@ -1,6 +1,6 @@
 {% for topic in site.data.topics %}
                 
         {% if topic.publish == true %}
-       <li {% if page.url == "topic.turl" %} class="active" {% endif %}><a href="{{ topic.turl }}">{{ topic.topic }}</a></li>
+       <li><a href="{{ topic.turl }}">{{ topic.topic }}</a></li>
        {% endif %}
 {% endfor %}

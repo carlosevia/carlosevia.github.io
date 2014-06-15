@@ -1,11 +1,11 @@
 - topic: Summertime
-  turl: p1.html
+  url: p1.html
   publish: yes
 
 - topic: How to
-  turl: p2.html
+  url: p2.html
   publish: yes
 
 - topic: How to (md)
-  turl: p3.html
+  url: p3.html
   publish: yes
