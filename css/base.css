@@ -3,6 +3,15 @@ video {
   height: auto   !important;
 }
 
+img {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 [data-hd-class="task/steps-informal"] {
   background-color: yellow;
+}
+
+#header {
+	h1: text-align: center;
 }
