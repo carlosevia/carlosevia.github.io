@@ -2,7 +2,7 @@
                 
         {% if topic.publish == true %}
        <li><a href="{{ topic.filename }}">{{ topic.topic }}</a></li>
-       {% if topic.child == yes %}
+       {% if topic.child == true %}
        <ul>
        	<li><a href="{{ topic.filename }}">{{ topic.topic }}</a></li>
        </ul>

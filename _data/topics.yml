@@ -1,14 +1,14 @@
 - topic: Summertime
   filename: p1.html
-  child: no
+  child: false
   publish: true
 
 - topic: How to
   filename: p2.html
-  child: no
-  publish: false
+  child: false
+  publish: true
 
 - topic: How to (md)
   filename: p3.html
-  child: yes
+  child: true
   publish: true
