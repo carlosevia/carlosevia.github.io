@@ -6,3 +6,7 @@ video {
 [data-hd-class="task/steps-informal"] {
   background-color: yellow;
 }
+
+.logo {
+	float: left;
+}
