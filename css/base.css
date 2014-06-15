@@ -11,19 +11,6 @@ img {
 
 [data-hd-class="task/steps-informal"] {
   background-color: yellow;
-}
-
-[data-hd-class="task/steps-informal"]
-
-[data-hd-class="note-caution"] {
-	p.bg-warning;
-}
-
-[data-hd-class="note-danger"]{
-p.bg-danger;
-}
-
-[data-hd-class="note-tip"] {
-	p.bg-info;
+  border-color: black;
 }
 
