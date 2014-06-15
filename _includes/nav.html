@@ -1,6 +1,6 @@
 {% for topic in site.data.topics %}
                 
-        {% if topic.publish == true %}
+        {% if topic.publish == true & topic.child == false%}
        <li><a href="{{ topic.filename }}">{{ topic.topic }}</a></li>
        {% if topic.child == true %}
        <ul>
