@@ -10,6 +10,8 @@
     <![endif]-->
 <link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css" rel="stylesheet">
     <link href="{{ site.baseurl }}css/base.css" rel="stylesheet" media="screen">
+    <!-- my custom google search -->
+{% include my_google_search.html %}
   </head>
   <body>
      {% include header.html %}
@@ -21,6 +23,10 @@
         {% include nav.html %}
             </ul>
           </div>
+          <!-- my custom google search -->
+<form onsubmit="my_search_google()" >
+  <input type="text" id="my-google-search">
+</form>
         </nav>
         {{ content }}
       </div>
