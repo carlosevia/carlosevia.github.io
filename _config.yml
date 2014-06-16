@@ -4,6 +4,7 @@ safe: true
 lsi: false
 pygments: true
 baseurl: ""
+markdown_ext: foo
 
 kramdown:
   auto_ids: true
