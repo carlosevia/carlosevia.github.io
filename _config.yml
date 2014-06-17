@@ -12,4 +12,4 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   use_coderay: true
   parse_span_html: true
-  markdown, parse_block_html: true
+  parse_block_html: true
