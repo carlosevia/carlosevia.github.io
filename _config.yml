@@ -11,4 +11,5 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   use_coderay: true
-  
+  parse_span_html: true
+  markdown, parse_block_html: true
