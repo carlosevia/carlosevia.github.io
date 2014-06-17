@@ -7,6 +7,9 @@ video {
 img {
   width: 100%    !important;
   height: auto   !important;
+  #scale-down {
+    height: 60%;
+}
 }
 
 [data-hd-class="task/steps-informal"] {
