@@ -3,6 +3,8 @@ markdown: kramdown
 safe: true
 lsi: false
 baseurl: ""
+simple_search: http://google.com/search
+url: http://carlosevia.github.io
 
 kramdown:
   auto_ids: false
