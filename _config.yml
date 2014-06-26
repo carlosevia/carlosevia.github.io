@@ -3,16 +3,14 @@ markdown: kramdown
 safe: true
 lsi: false
 baseurl: ""
-simple_search: http://google.com/search
-url: http://carlosevia.github.io
 
 
 kramdown:
-auto_ids: false
-footnote_nr: 1
-entity_output: as_char
-toc_levels: 1..6
-smart_quotes: lsquo,rsquo,ldquo,rdquo
-use_coderay: true
-parse_span_html: true
-parse_block_html: true
+ auto_ids: false
+ footnote_nr: 1
+ entity_output: as_char
+ toc_levels: 1..6
+ smart_quotes: lsquo,rsquo,ldquo,rdquo
+ use_coderay: true
+ parse_span_html: true
+ parse_block_html: true
