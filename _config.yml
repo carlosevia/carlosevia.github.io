@@ -1,4 +1,5 @@
 name: A simple demo
+author: Carlos
 markdown: kramdown
 safe: true
 lsi: true
