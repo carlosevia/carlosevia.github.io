@@ -13,7 +13,3 @@
   child: true
   publish: true
 
-- topic: How to be a monster
-  filename: p4.html
-  child: false
-  publish: true
