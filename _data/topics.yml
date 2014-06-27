@@ -11,5 +11,10 @@
 - topic: How to have a good summer(md)
   filename: p3.html
   child: true
+  publish: false
+
+- topic: How to dance
+  filename: p4.html
+  child: false
   publish: true
 
