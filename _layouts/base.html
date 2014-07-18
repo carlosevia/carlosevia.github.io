@@ -31,7 +31,7 @@
 
 
 
-    <div id="content" class="container">
+    <div class="container">
      <div class="row row-offcanvas row-offcanvas-left">
       <!-- sidebar -->
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
@@ -45,8 +45,9 @@
         {{ content }}
       </div>
     </div>
+     {% include footer.html %}
   </div>
-    {% include footer.html %}
+   
     <script src="http://code.jquery.com/jquery.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl }}/js/scripts.js"></script>
