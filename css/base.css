@@ -1,5 +1,5 @@
 body {
-  padding-top: 61px;  
+  padding-top: 51px;  
 }
 .text-center {
   padding-top: 20px;
@@ -10,7 +10,7 @@ body {
 #sidebar {
   height: 100%;
   padding-right: 0;
-  padding-top: 50px;
+  padding-top: 60px;
 }
 #sidebar .nav {
   width: 95%;
