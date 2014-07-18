@@ -30,23 +30,23 @@ body {
   }
   .row-offcanvas-right
   .sidebar-offcanvas {
-    right: -40%;
+    right: -41.6%;
   }
 
   .row-offcanvas-left
   .sidebar-offcanvas {
-    left: -40%;
+    left: -41.6%;
   }
   .row-offcanvas-right.active {
-    right: 40%;
+    right: 41.6%;
   }
   .row-offcanvas-left.active {
-    left: 40%;
+    left: 41.6%;
   }
   .sidebar-offcanvas {
     position: absolute;
     top: 0;
-    width: 40%;
+    width: 41.6%;
   }
   #sidebar {
     padding-top:0;
