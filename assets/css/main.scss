@@ -4,7 +4,7 @@ sitemap: false
 
 /*
  *
- *  Minimal Mistakes
+ *  So Simple
  *
  *  Designer: Michael Rose
  *  Twitter: http://twitter.com/mmistakes
@@ -15,7 +15,7 @@ sitemap: false
 @import "variables";
 @import "grid";
 @import "mixins";
-@import "normalize";
+@import "reset";
 @import "site";
 @import "typography";
 @import "pygments";
@@ -25,4 +25,3 @@ sitemap: false
 @import "page";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
-@import "vendor/google/fonts";

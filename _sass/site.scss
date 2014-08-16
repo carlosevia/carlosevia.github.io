@@ -1,16 +1,24 @@
-/* Selection ============================================= */
+// Selection
+// --------------------------------------------------
+
 ::-moz-selection { 
-	background-color: lighten($basecolor, 65%); 
-	color: $basecolor; 
+	background-color: lighten($base-color, 65%); 
+	color: $base-color; 
 	text-shadow: none; 
 }  	
 ::selection { 
-	background-color: lighten($basecolor, 65%); 
-	color: $basecolor; 
+	background-color: lighten($base-color, 65%); 
+	color: $base-color; 
 	text-shadow: none; 
 }
 
-/* Global Classes ======================================== */
+
+// Utility Classes
+// --------------------------------------------------
+
+.wrap {
+	margin: 0 auto;
+}
 .all-caps {
 	text-transform: uppercase;
 }
@@ -18,22 +26,7 @@
 	float: left;
 }
 .pull-right {
-	float: right;
-}
-.image-pull-right {
-	float: right;
-	margin-top: 0;
-}
-.clearfix {
-	*zoom: 1;
-	&:before,
-	&:after {
-		display: table;
-	    content: "";
-	}
-	&:after {
-		clear: both;
-	}
+	float:right;
 }
 .unstyled-list {
 	list-style: none;
@@ -44,7 +37,10 @@
 	}
 }
 
-/* Global Transition ==================================== */
+
+// Global Transition
+// ---------------------------------------------------
+
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
 	@include transition(all .2s ease);
 }
