@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: Site Title
+title: Technical Writing Monkey
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: I am the Technical Writing Monkey and this is my ePortfolio.
+logo: logo.png
 search: true
 url: http://carlosevia.github.io
 
@@ -32,7 +32,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Technical Writing Monkey
   avatar: bio-photo.jpg
   email: you@email.com
   disqus-shortname:
