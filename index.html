@@ -6,6 +6,6 @@ excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 
 <ul class="post-list">
 {% for page in site.pages limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ page.title }} <span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+  <li><article><a href="{{ site.url }}{{ page.url }}">{{ page.title }} <span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endfor %}
 </ul>
