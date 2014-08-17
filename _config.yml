@@ -1,5 +1,5 @@
 # Site settings
-title: My ePortfolio
+title: Technical Writing Monkey
 email: your-email@domain.com
 description: I am the Technical Writing Monkey and this is my ePortfolio."
 
@@ -24,8 +24,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 439 Shanks Hall
+  - line: Blacksburg, VA 24060
 
 # Build settings
 markdown: kramdown
