@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	width: 100%;
 	background-color: $body-color;
-	border-top: 5px solid $black;
+	border-top: 5px solid #660000;
 	@media #{$medium} {
 		@include font-rem(20);
 	}
@@ -80,7 +80,7 @@ body {
 	vertical-align: top;
 	margin: 0;
 	padding: 4px 20px;
-	background-color: $black;
+	background-color: #660000;
 	@include rounded(0);
 	@media #{$medium} {
 		display: none;
