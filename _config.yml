@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            The Technical Writing Monkey
+title:            Technical Writing Monkey
 locale:           en_US
 url:              http://carlosevia.github.io
 
@@ -26,7 +26,7 @@ kramdown:
 
 # Site owner
 owner:
-  name: The Technical Writing Monkey
+  name: Technical Writing Monkey
   avatar: bio-photo.jpg
   bio: "I am a PW student and this is my ePortfolio."
   email: 
