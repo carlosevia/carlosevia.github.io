@@ -1,14 +1,25 @@
-// Body
-// --------------------------------------------------
-body {
-	font-family: $base-font;
-	color: $text-color;
-}
-
 // Headings
 // --------------------------------------------------
 h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
+}
+h1 {
+	@include font-size(32);
+}
+h2 {
+	@include font-size(28);
+}
+h3 {
+	@include font-size(24);
+}
+h4 {
+	@include font-size(18);
+}
+h5 {
+	@include font-size(16);
+}
+h6 {
+	@include font-size(14);
 }
 
 // Links
@@ -17,25 +28,19 @@ a {
 	text-decoration: none;
 	color: $link-color; 
 	&:visited { 
-		color: lighten($link-color, 20); 
+		color: $linkcolorvisited; 
 	}
 	&:hover { 
-		color: darken($link-color, 20); 
+		color: $linkcolorhover; 
 	}
 	&:focus { 
 		outline: thin dotted; 
-		color: darken($link-color, 20);
+		color: $linkcolorfocus;
 	}
 	&:hover, 
 	&:active { 
 		outline: 0; 
 	}
-}
-
-.link-arrow {
-	font-weight: 100;
-	text-decoration: underline;
-	font-style: normal;
 }
 
 // Figures
@@ -50,23 +55,22 @@ figcaption {
 // Feature Image Caption
 // --------------------------------------------------
 .image-credit {
-	margin: 0 auto;
-	max-width: 440px;
-	padding-top: 5px;
-	padding-right: 20px;
-	padding-left: 20px;
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+	display: block;
 	text-align: right;
-	@include font(14);
+	@include font(12);
 	line-height: 1.3;
+	font-style: italic;
 	color: lighten($text-color, 30);
-	@include clearfix();
-	@media #{$medium} {
-		max-width: 760px;
-		padding-right: 60px;
-		padding-left: 60px;
+	@media #{$small} {
+		@include grid(12,9);
+		@include prefix(12,0);
+		@include suffix(12,0);
 	}
-	@media #{$large} {
-		max-width: 960px;
+	@media #{$x-large} {
+		@include grid(12,8.5);
 	}
 	a {
 		color: lighten($text-color, 30);
@@ -79,27 +83,42 @@ figcaption {
 	margin-top: 1.5em;
 	padding: .5em 1em;
 	text-indent: 0;
-	@include font-rem(16);
-	background-color: lighten($black, 95);
-	border: 1px solid lighten(#ff6600, 90);
-	@include rounded(4px);
+	@include font-rem(14);
+	background-color: $body-color;
+	border: 1px solid darken($body-color,20);
+	@include rounded(3px);
 }
 
 // Blockquotes
 // --------------------------------------------------
 blockquote {
+	margin-left: -28px;
+	padding-left: 20px;
+	border-left: 8px solid $border-color;
 	font-family: $alt-font;
 	font-style: italic;
-	@include font-size(16);
-	padding-left: 20px;
-	border-left: 8px solid $black;
 }
 
 // Footnotes
 // --------------------------------------------------
 .footnotes {
-	@include font(14);
-	font-family: $base-font;
+	ol, li, p {
+		margin-bottom: 0;
+		@include font-rem(14);
+	}
+}
+
+// Paragraphs
+// --------------------------------------------------
+p {
+	margin: 0 0 $indent-var;
+	// sibling indentation
+  @if $paragraph-indent == true {
+    & + p {
+			text-indent: $indent-var;
+			margin-top: -($indent-var);
+		}
+	}
 }
 
 // Code
@@ -110,16 +129,18 @@ tt, code, kbd, samp, pre {
 p,
 li { 
 	code {
-		@include font(12);
+		@include font-rem(12);
+		line-height: 1.5;
 		white-space: nowrap;
 		margin: 0 2px;
 		padding: 0 5px;
 		border: 1px solid lighten($black, 90);
-		background-color: lighten($black, 95);
+		background-color: #efefef;
 		@include rounded(3px);
 	}
 }
 pre {
-	@include font(12);
+	@include font-rem(12);
+	line-height: 1.5;
 	overflow-x: auto;
 }
