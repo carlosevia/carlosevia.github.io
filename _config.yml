@@ -5,8 +5,8 @@ description: I am the Technical Writing Monkey and this is my ePortfolio."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: #660000
-  secondary: #ff6600
+  primary: 660000 #660000
+  secondary: ff6600 #ff6600
   secondary-dark: 233140 #A2122F
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
