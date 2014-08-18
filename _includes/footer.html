@@ -4,8 +4,8 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>
+                        <h3>Contact Information</h3>
+                        <p>hokie@vt.edu<br>
                             {% for adress in site.address %}
                                 {{ adress.line }} <br>
 		                    {% endfor %}
@@ -22,8 +22,8 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Credits</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Your ad here</h3>
+                        <p>I can put extra information here.</p>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; {{ site.title }} 20{{ site.time | date: '%y' }}
+                        Copyright &copy; {{ site.title }} 20{{ site.time | date: '%y' }}. Based on the Freelance Jekyll and Bootstrap themes.
                     </div>
                 </div>
             </div>
