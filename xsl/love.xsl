@@ -56,7 +56,12 @@
             <div id="topic">
                 <xsl:for-each select="quilts/story[type='love']">
                 <div class="col-md-4">    
-                    <h1><a href="#topic1"><xsl:value-of select="author"/></a></h1>
+                    <h1>
+                        
+                        <xsl:variable name="anchor"><xsl:value-of select="anchor" /></xsl:variable>
+                        <a href="#{$anchor}"></a>
+                    
+                         <xsl:value-of select="author"/></h1>
                     </div>
                     </xsl:for-each>  
             </div>
@@ -65,8 +70,10 @@
       <hr />
       <xsl:for-each select="quilts/story[type='love']">
       <div class="row">
+          <xsl:variable name="anchor2"><xsl:value-of select="anchor" /></xsl:variable>
           
-        <div id="topic1">
+          <div id="{$anchor2}">
+       
             <h2><xsl:value-of select="author"/></h2>
             <p><xsl:value-of select="description"/></p>
           
