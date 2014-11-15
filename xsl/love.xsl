@@ -29,7 +29,7 @@
   <div class="container">
       <div class="row">
           <div id="head">
-        <h1>Listening to the Landscape of Creation</h1>
+        <h1>Listening to the Landscape of Creatiossn</h1>
     <h2>A few stories from the lives of quilters in Virginia's New River Valley</h2>
               </div><!--end head-->
           <hr/>
