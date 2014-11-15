@@ -58,8 +58,8 @@
                 <div class="col-md-4">    
                     <h1>
                         
-                        <xsl:variable name="anchor"><xsl:value-of select="anchor" /></xsl:variable>
-                        <a href="#{$anchor}"></a>
+                        <xsl:variable name="anchor1"><xsl:value-of select="anchor" /></xsl:variable>
+                        <a href="#{$anchor1}"></a>
                     
                          <xsl:value-of select="author"/></h1>
                     </div>
