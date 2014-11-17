@@ -60,7 +60,7 @@
                     <h1>
                         <a href="#{$anchor1}">
                     
-                            <xsl:value-of select="author"/></a></h1>
+                            <xsl:value-of select="title"/></a></h1>
                     </div>
                     </xsl:for-each>  
             </div>
@@ -73,7 +73,7 @@
           
           <div id="{$anchor2}">
        
-            <h2><xsl:value-of select="author"/></h2>
+            <h2><xsl:value-of select="title"/></h2>
             <p><xsl:value-of select="description"/></p>
           
           </div>  
