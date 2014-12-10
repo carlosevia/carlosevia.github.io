@@ -20,8 +20,10 @@
         <type>love</type>
         <patterns></patterns>
         <description>
-         Hola \n
+         <pre>
+            Hola
          Hola
+     </pre>
         </description>
         
     </story>
