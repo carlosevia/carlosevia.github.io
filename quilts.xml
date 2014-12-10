@@ -20,11 +20,8 @@
         <type>love</type>
         <patterns></patterns>
         <description>
-            <![CDATA[
-        Line 1 <br />
-        Line 2 <br />
-        Line 3 <br />
-        ]]>
+         Hola \n
+         Hola
         </description>
         
     </story>
