@@ -74,8 +74,9 @@
           <div id="{$anchor2}">
        
             <h2><xsl:value-of select="title"/></h2>
-            <p><xsl:value-of select="description"/></p>
-          
+              <xsl:for-each select="description/paragraphs">
+            <p><xsl:value-of select="paragraph"/></p>
+              </xsl:for-each>
           </div>  
       </div>
           <hr />
