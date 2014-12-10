@@ -19,8 +19,12 @@
         <anchor>2</anchor>
         <type>love</type>
         <patterns></patterns>
-        <description>pepe
-            papa
+        <description>
+            <![CDATA[
+        Line 1 <br />
+        Line 2 <br />
+        Line 3 <br />
+        ]]>
         </description>
         
     </story>
