@@ -18,17 +18,16 @@ footer {
 	ul {
 		margin-left: 10px;
 	}
+
+
 }
-.parmname {
-	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-	font-size: 12px;
-	border-radius: 3px;
-	padding: 2px 4px;
-	color: #d14;
-	white-space: nowrap;
-	background-color: #f7f7f9;
-	border: 1px solid #e1e1e8;
+
+/* hide all (inactive) nested list */
+.bs-docs-sidebar .nav ul.nav {
+    display: none;           
 }
-.codeblock {
-	background-color: #EEE;
+/* show active nested list */
+.bs-docs-sidebar .nav>.active>ul.nav {
+    display: block;           
 }
+
