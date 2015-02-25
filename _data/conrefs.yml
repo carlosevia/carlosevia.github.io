@@ -1,3 +1,7 @@
 - snippet
   key: sweet
   value: life is sweet
+
+- snippet
+  key: meh
+  value: life is meh
