@@ -4,14 +4,12 @@ footer {
 	padding: 10px 0;
 	border-top: 1px solid #e5e5e5;
 }
-
 body {
   padding-top: 51px;  
 }
 .text-center {
   padding-top: 20px;
 }
-
 .col-xs-12 {
   background-color: #fff;
 }
@@ -28,8 +26,6 @@ body {
   border-bottom-width:1px;
 }
 
-
-
 /* collapsed sidebar styles */
 @media screen and (max-width: 767px) {
   .row-offcanvas {
@@ -40,23 +36,23 @@ body {
   }
   .row-offcanvas-right
   .sidebar-offcanvas {
-    right: -40%;
+    right: -41.6%;
   }
 
   .row-offcanvas-left
   .sidebar-offcanvas {
-    left: -40%;
+    left: -41.6%;
   }
   .row-offcanvas-right.active {
-    right: 40%;
+    right: 41.6%;
   }
   .row-offcanvas-left.active {
-    left: 40%;
+    left: 41.6%;
   }
   .sidebar-offcanvas {
     position: absolute;
     top: 0;
-    width: 40%;
+    width: 41.6%;
   }
   #sidebar {
     padding-top:0;
