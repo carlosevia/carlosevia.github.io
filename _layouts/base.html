@@ -6,30 +6,32 @@
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-   
+<link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/lumen/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}css/base.css" rel="stylesheet">
+
   </head>
   <body>
-    <div class="page-container">
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation"">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+   <div class="page-container">  
+
+     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+       <div class="container">
+      <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
            </button>
-          <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
-        </div>
-        
+             <a class="navbar-brand" href="index.html">{{ site.name }}</a>
       </div>
+       </div>
     </div>
-    <div id="content" class="container">
-        <div class="row row-offcanvas row-offcanvas-left">
+
+
+
+    <div class="container">
+     <div class="row row-offcanvas row-offcanvas-left">
         {{ content }}
       </div>
     </div>
