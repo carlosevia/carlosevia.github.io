@@ -5,20 +5,11 @@ footer {
 	border-top: 1px solid #e5e5e5;
 }
 
-.col-xs-12 {
-  background-color: #fff;
+body {
+  padding-top: 51px;  
 }
-#sidebar {
-  height: 100%;
-  padding-right: 0;
+.text-center {
   padding-top: 20px;
-}
-#sidebar .nav {
-  width: 95%;
-}
-#sidebar li {
-  border:0 #f2f2f2 solid;
-  border-bottom-width:1px;
 }
 
 /* collapsed sidebar styles */
