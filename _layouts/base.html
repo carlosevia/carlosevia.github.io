@@ -14,7 +14,8 @@
    
   </head>
   <body>
-    <header class="navbar navbar-inverse navbar-static-top">
+    <div class="page-container">
+    <header class="navbar navbar-default navbar-fixed-top" role="navigation"">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
@@ -33,6 +34,7 @@
       </div>
     </div>
     {% include footer.html %}
+  </div>
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <script type="text/javascript">
@@ -53,5 +55,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+
   </body>
 </html>
