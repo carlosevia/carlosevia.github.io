@@ -1,7 +1,7 @@
 # Experiments and ideas... mostly DITA stuff
 
 - Lightweight DITA projects
-    - [MarkDITA experiment: Markdown meets DITA](http://carlosevia.github.io/MkDITA)
+    - [MarkDITA experiment: Markdown meets DITA](http://carlosevia.github.io/MkDITA). Source: [https://github.com/carlosevia/MkDITA](https://github.com/carlosevia/MkDITA)
     - HDITA experiment: HTML5 meets DITA (student examples)
         + [Lara](http://larazp.github.io)
         + [Brittany](http://blbarnes2012.github.io)
