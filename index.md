@@ -1,6 +1,6 @@
 # Carlos Evia, PhD
 
-Hi! I am an associate professor of Communication at Virginia Tech. Here are some links about the work I do in and out of GitHub.
+Hi! I am a professor of Communication at Virginia Tech. Here are some links about the work I do in and out of GitHub.
 
 - [My "official" website](http://carlosevia.com/)
 - [My page at the Virginia Tech College of Liberal Arts and Human Sciences](https://liberalarts.vt.edu/departments-and-schools/department-of-communication/faculty/carlos-evia.html)
