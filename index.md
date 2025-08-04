@@ -1,4 +1,4 @@
-# Carlos Evia, PhD
+# Carlos Evia Puerto, PhD
 
 Hi! I am a professor of Communication, Associate Dean for Transdisciplinary Initiatives, and Chief Technology Officer in the College of Liberal Arts and Human Sciences at Virginia Tech. Here are some links about the work I do in and out of GitHub.
 
